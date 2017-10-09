@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:layout_editor_absoluteY="8dp"
+    tools:layout_editor_absoluteX="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/background_dark">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Address"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="51dp" />
+
+    <EditText
+        android:id="@+id/txtEmailRegistration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:text="Password"
+        android:textSize="20dp"
+        android:textColorHint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background"
+        android:layout_below="@+id/txtEmailRegistration"
+        android:layout_alignLeft="@+id/txtEmailRegistration"
+        android:layout_alignStart="@+id/txtEmailRegistration" />
+
+    <EditText
+        android:id="@+id/txtPasswordRegistration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnRegistrationUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPasswordRegistration"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="Register"
+        android:onClick="btnRegistrationUser_Click"
+        android:background="@color/cardview_light_background"
+        />
+
+
+</RelativeLayout>
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/action_mydocs"
+        android:enabled="true"
+        android:icon="@drawable/ic_mydocs"
+        android:title="MyDocs"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_add1"
+        android:enabled="true"
+        android:icon="@drawable/ic_add1"
+        android:title="Add"
+        app:showAsAction="ifRoom"/>
+
+
+
+    <item
+        android:id="@+id/action_fav"
+        android:enabled="true"
+        android:icon="@drawable/ic_fav"
+        android:title="Location"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_logout"
+        android:enabled="true"
+        android:icon="@drawable/ic_logout"
+        android:title="Log Out"
+        app:showAsAction="ifRoom"/>
+
+
+
+
+
+
+</menu>

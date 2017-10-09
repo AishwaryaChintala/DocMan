@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="true"
+    android:background="@android:color/background_dark">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Document Name:"
+        android:textSize="30dp"
+        android:textColor="@color/cardview_light_background"/>
+
+
+    <EditText
+        android:id="@+id/dname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Document name"
+        android:textColorHint="@color/cardview_light_background"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Document Location"
+            android:textSize="30dp"
+        android:textColorHint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background"/>
+        <EditText
+            android:id="@+id/dloc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Document Location "
+            android:textColorHint="@color/cardview_light_background"
+            android:backgroundTint="@color/cardview_light_background"
+            android:textColor="@color/cardview_light_background"/>
+
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Save"
+        android:background="@color/cardview_light_background"/>
+</LinearLayout>
